@@ -5,7 +5,7 @@
 
 int tetris::main()
 {
-
+	std::cout << "Enter the level from which to start: ";
 	std::cin >> level;
 
 	next_pice = inicijalizacija();

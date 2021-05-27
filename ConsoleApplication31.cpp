@@ -88,7 +88,7 @@ again:
     speak("SHALL WE PLAY A GAME?");
     cout << endl;
     getline(cin, ans);
-    cout <<"A"<<ans<<"A"<< endl;
+
     if (ans == "game list" || ans == "list")
     {
         speak("  TETRIS");
